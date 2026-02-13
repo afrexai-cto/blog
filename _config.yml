@@ -1,0 +1,26 @@
+title: AfrexAI Blog
+description: AI automation insights, OpenClaw guides, and practical agent tutorials from the team that runs a 9-agent production swarm.
+baseurl: "/blog"
+url: "https://afrexai-cto.github.io"
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+author:
+  name: AfrexAI
+  url: https://afrexai-cto.github.io/context-packs/
+
+header_pages:
+  - about.md
+
+google_analytics:
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      author: "AfrexAI"
